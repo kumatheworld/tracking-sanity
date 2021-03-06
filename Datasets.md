@@ -40,4 +40,4 @@
     * The coordinate origin is not clear for this reason.
 * 2 videos have invalid bounding boxes at the very end.
     * The 698th bounding box `(0, 0, 0, 0)` of `Board`
-    * The 472th bounding box `(0, 0, 0, 0)` of `Twinnings`
+    * The 472nd bounding box `(0, 0, 0, 0)` of `Twinnings`
