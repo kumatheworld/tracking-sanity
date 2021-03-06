@@ -33,3 +33,6 @@ Coming soon!
         * The 75th bounding box `(348, -10, 32, 35)` of `Biker`
         * The 274th bounding box `(268, 60, 60, 83)` of `Trellis`, whose resolution is `320 x 240`
     * The coordinate origin is not clear for this reason.
+* 2 videos have invalid bounding boxes at the very end.
+    * The 698th bounding box `(0, 0, 0, 0)` of `Board`
+    * The 472th bounding box `(0, 0, 0, 0)` of `Twinnings`
