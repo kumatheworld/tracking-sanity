@@ -13,3 +13,6 @@ Coming soon!
     | Football1 |      81 |      74 |    0001 ~ 0074     | |
     | Freeman3  |     474 |     460 |    0001 ~ 0460     | |
     | Freeman4  |     297 |     283 |    0001 ~ 0283     | |
+* Delimiters in `groundtruth_rect.txt` vary.
+    * 68 videos use `','` and 32 videos use `'\t'`.
+    * The 496th bounding box of `BlurCar1` is delimited by `' '` while the rest is delimited by ```'\t'```.
