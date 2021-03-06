@@ -16,3 +16,10 @@ Coming soon!
 * Delimiters in `groundtruth_rect.txt` vary.
     * 68 videos use `','` and 32 videos use `'\t'`.
     * The 496th bounding box of `BlurCar1` is delimited by `' '` while the rest is delimited by ```'\t'```.
+* The following 4 videos do not have `0001.jpg` unlike the rest.
+    | Video    | First frame |
+    | :------- | ----------: |
+    | BlurCar1 |    0247.jpg |
+    | BlurCar3 |    0003.jpg |
+    | BlurCar4 |    0018.jpg |
+    | Board    |   00001.jpg |
