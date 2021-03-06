@@ -28,3 +28,8 @@ Coming soon!
     * `Box` has `box.zip`.
     * `Human4` has empty `groundtruth_rect1.txt`.
     * `Panda` has `panda-all.txt`.
+* There are bounding boxes sticking out of the FOV.
+    * Examples:
+        * The 75th bounding box `(348, -10, 32, 35)` of `Biker`
+        * The 274th bounding box `(268, 60, 60, 83)` of `Trellis`, whose resolution is `320 x 240`
+    * The coordinate origin is not clear for this reason.
