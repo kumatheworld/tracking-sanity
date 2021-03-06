@@ -23,3 +23,8 @@ Coming soon!
     | BlurCar3 |    0003.jpg |
     | BlurCar4 |    0018.jpg |
     | Board    |   00001.jpg |
+* There are files whose purpose is obscure.
+    * 48 directories out of the 98 have `cfg.mat`.
+    * `Box` has `box.zip`.
+    * `Human4` has empty `groundtruth_rect1.txt`.
+    * `Panda` has `panda-all.txt`.
