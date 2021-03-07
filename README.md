@@ -2,7 +2,7 @@
 This repository helps you study visual tracking (single & generic object tracking) by taking a close look at recent datasets and trackers.
 
 ## Datasets
-Tracking datasets out there are huge, (often implicitly) different in format and not always well-annotated, where you could easily lead yourself astray. In addition to the brief summary below, we provide more details about the individual datasets in [Datasets.md](Datasets.md).
+Tracking datasets out there are huge, (often implicitly) different in format and not always well-annotated, where you could easily lead yourself astray. In addition to the rough statistics below, we provide more details about the individual datasets in [Datasets.md](Datasets.md).
 ### VOT
 Coming soon!
 ### Others
