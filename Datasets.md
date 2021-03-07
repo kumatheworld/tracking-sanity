@@ -5,9 +5,9 @@
 * Small
 * Easy
 ### Statistics
-| #Videos | #Frames | #Attributes | Size <br> (GB) | Coordinate <br> origin |
-| ------: | ------: | ----------: | -------------: | ---------------------: |
-|     100 |  59,040 |          11 |            2.7 |                      ? |
+| #Videos | #Frames |#Object <br> classes | #Attributes | Size <br> (GB) |  Coordinate <br> origin |
+| ------: | ------: |-------------------: | ----------: | -------------: |  ---------------------: |
+|     100 |  59,040 |                  16 |          11 |            2.7 |                       ? |
 ### Caveats
 * In the following 5 videos, the annotation length is shorter than the video length.
     | Video     | #Frames | #BBoxes | True range in .jpg | Remarks |
