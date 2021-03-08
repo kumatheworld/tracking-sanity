@@ -6,8 +6,8 @@ Tracking datasets out there are huge, (often implicitly) different in format and
 ### VOT
 Coming soon!
 ### Others
-| Name            | Publication | #Train <br> videos | #Test <br> videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Link |
-| :-------------- | :---------: | -----------------: | ----------------: | ---------: | -------------------: | -----: | -------------: | :--- |
+| Name            | Publication | #Train <br> videos | #Test <br> videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Links |
+| :-------------- | :---------: | -----------------: | ----------------: | ---------: | -------------------: | -----: | -------------: | :---- |
 | OTB2015         |  TPAMI2015  |                  0 |               100 |     59,040 |                   16 |     11 |            2.7 | [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html)       [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf) |
 | TrackingNet     |   ECCV2018  |             30,132 |               511 | 14,431,266 |                   27 |     15 |          1,088 | [:globe_with_meridians:](https://tracking-net.org/)                                        [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit) |
 
