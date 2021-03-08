@@ -140,3 +140,38 @@
     | Val    |     180 |    21,007 |                  150 |            1.2 |
     | Test   |     180 |    22,834 |                   84 |            1.3 |
 ### Caveats
+* There are neither 10K videos nor 1.5M frames in contrast to authors' claim.
+* `Test` has only 180 videos, not 420 videos as the authors say.
+* The frame resolution sometimes changes in a video.
+    * See https://github.com/got-10k/toolkit/issues/25.
+* There are at least 33 ill-annotated videos.
+    * Examples:
+        * ```
+            $ head -5 train/GOT-10k_Train_004419/groundtruth.txt
+            371.0000,0.0000,150.0000,0.0000
+            352.0000,0.0000,157.0000,0.0000
+            346.0000,0.0000,157.0000,0.0000
+            333.0000,0.0000,138.0000,0.0000
+            320.0000,0.0000,144.0000,0.0000
+          ```
+        * ```
+            $ head -5 train/GOT-10k_Train_005996/groundtruth.txt
+            1197.0000,86.0000,374.0000,548.0000
+            1223.0000,38.0000,386.0000,89.0000
+            1304.0000,0.0000,321.0000,1.0000
+            1341.0000,0.0000,293.0000,1.0000
+            1353.0000,0.0000,270.0000,1.0000
+          ```
+* The coordinate origin is not clear.
+    * It is supposed to be 1 (see https://github.com/got-10k/toolkit/issues/6) but there are many videos (including 6 `Test` videos) that have `0`'s as the left end or the top end coordinate.
+* Some `Train` videos and `Val` videos are made from the same YouTube videos.
+    * 107 videos out of the 180 `Val` videos have some overlaps with `Train`.
+        * E.g. `GOT-10k_Val_000002` is from `https://youtu.be/kjQGSiLvFac`, which `GOT-10k_Train_000147`, `GOT-10k_Train_000148` and `GOT-10k_Train_000149` are also made from.
+    * Authors claim that `Val` is randomly sampled from `Train` but this is not true.
+* Watch out for the statement "no overlap between `Train` and `Test`".
+    * As is written in the paper, the `person` class shows up in both. The `person` videos are differentiated by motion class.
+* [Leaderboard](http://got-10k.aitestunion.com/leaderboard) is fun to watch but...
+    * Not sure if every tracker follows the protocol of "Train only on GOT-10k". Take the results with a grain of salt.
+* You might not get the dataset link after sending a request with your e-mail address.
+    * See https://github.com/got-10k/toolkit/issues/41.
+    * I tried 2 different e-mail addresses but none of them worked.
