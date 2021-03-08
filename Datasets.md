@@ -50,7 +50,7 @@
 ### Features
 * **Human annotations take up only ~3% and the rest is annotated by running trackers**
 * Available for training
-* Sequesters the test set and provides an [evaluation server](http://eval.tracking-net.org/web/challenges/challenge-page/39/overview)
+* Sequesters the test set annotations and provides an [evaluation server](http://eval.tracking-net.org/web/challenges/challenge-page/39/overview)
 * Huge
 * Short
 * Easy
