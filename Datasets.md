@@ -94,4 +94,13 @@
 * Long
 * Large
 ### Statistics
+* Overall
+    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
+    | ------: | ---------: | -------------------: | -----: | -------------: | ---------------------: |
+    |   1,400 |  3,517,342 |                   70 |     14 |            237 |                      1 |
+* Split-wise
+    | Split    | #Videos |   #Frames | Size <br> (GB) |
+    | :------- | ------: | --------: | -------------: |
+    | training |   1,120 | 2,831,982 |            188 |
+    | testing  |     280 |   685,360 |             48 |
 ### Caveats
