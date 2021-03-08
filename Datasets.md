@@ -129,4 +129,14 @@
 * Sequesters the test set annotations and provides an [evaluation server](http://got-10k.aitestunion.com/submit_instructions)
 * Large
 ### Statistics
+* Overall
+    | #Videos |   #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
+    | ------: | --------: | -------------------: | -----: | -------------: | ---------------------: |
+    |   9,695 | 1,447,200 |                  563 |      6 |             75 |                     1? |
+* Split-wise
+    | Split  | #Videos |   #Frames | #Object <br> classes | Size <br> (GB) |
+    | :----- | ------: | --------: | -------------------: | -------------: |
+    | Train  |   9,335 | 1,403,359 |                  480 |             72 |
+    | Val    |     180 |    21,007 |                  150 |            1.2 |
+    | Test   |     180 |    22,834 |                   84 |            1.3 |
 ### Caveats
