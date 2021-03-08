@@ -3,6 +3,7 @@
 * Others
     * [OTB2015](#otb2015-tpami2015-globe_with_meridians-memo)
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
+    * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
 * Test-only (not for training)
@@ -76,3 +77,8 @@
         * Is this because of the backward test?
 * Image sequence format is `%d.jpg`, not like `%03d.jpg`.
     * That means you can't get the correct order just by sorting them (e.g. `10.jpg` comes before `1.jpg`). Use [natsort](https://natsort.readthedocs.io/en/master/) instead.
+
+## LaSOT [CVPR2019] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/1809.07845) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
+### Features
+### Statistics
+### Caveats
