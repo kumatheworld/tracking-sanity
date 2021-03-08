@@ -9,9 +9,9 @@
 * Small
 * Easy
 ### Statistics
-| #Videos | #Frames | #Object <br> classes | #Attributes | Size <br> (GB) |  Coordinate <br> origin |
-| ------: | ------: | -------------------: | ----------: | -------------: |  ---------------------: |
-|     100 |  59,040 |                   16 |          11 |            2.7 |                       ? |
+| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |  Coordinate <br> origin |
+| ------: | ------: | -------------------: | -----: | -------------: |  ---------------------: |
+|     100 |  59,040 |                   16 |     11 |            2.7 |                       ? |
 ### Caveats
 * In the following 5 videos, the annotation length is shorter than the video length.
     | Video     | #Frames | #BBoxes | True range in .jpg | Remarks |
@@ -55,9 +55,9 @@
 * Easy
 ### Statistics
 * Overall
-    | #Videos |    #Frames | #Object <br> classes | #Attributes | Size <br> (GB) |  Coordinate <br> origin |
-    | ------: | ---------: | -------------------: | ----------: | -------------: |  ---------------------: |
-    |  30,643 | 14,431,266 |                   27 |          15 |          1,088 |                       1 |
+    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |  Coordinate <br> origin |
+    | ------: | ---------: | -------------------: | -----: | -------------: |  ---------------------: |
+    |  30,643 | 14,431,266 |                   27 |     15 |          1,088 |                       1 |
 * Split-wise
     | Split | #Videos |    #Frames | Size <br> (GB) |
     | :-----| ------: | ---------: | -------------: |
