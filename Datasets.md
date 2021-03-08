@@ -60,3 +60,15 @@
     | TRAIN |  30,132 | 14,205,677 |          1,054 |
     | TEST  |     511 |    225,589 |             34 |
 ### Caveats
+* The dataset is **Huge**.
+    * It is provided as multiple nested .zip files.
+        * `TRAIN_{0..11}.zip` (~90GB each) and `TEST.zip` (34GB).
+        * If you don't delete .zip files after extraction, you'll end up using over a **3TB** of space!
+* Watch out for the "human annotations at 1 fps" feature!
+    * Many bounding boxes are sticking out of the FOV.
+        * See https://github.com/SilvioGiancola/TrackingNet-devkit/issues/23.
+    * Human annotations do not happen every 30 frames exactly.
+        * E.g. `TRAIN_0/A1RSx6j_ra0_4` seems to have human annotations at the following: `1, 31, 61, 91, ..., 451, 481, 510, 540`.
+        * Is this because of the backward test?
+* Image sequence format is `%d.jpg`, not like `%03d.jpg`.
+    * That means you can't get the correct order just by sorting them (e.g. `10.jpg` comes before `1.jpg`). Use [natsort](https://natsort.readthedocs.io/en/master/) instead.
