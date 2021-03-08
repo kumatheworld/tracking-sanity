@@ -80,5 +80,18 @@
 
 ## LaSOT [CVPR2019] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/1809.07845) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
 ### Features
+* Balanced class distribution (70 object classes x 20 videos/class)
+    * Stratified splits of train (80%) and test (20%)
+* Offers extra annotations
+    * Frame-level binary labels of full occlusion
+    * Frame-level binary labels of out-of-view
+    * Video-level short lingual descriptions
+* Has 2 different evaluation protocols
+    * `Protocol I`: All the 1,400 videos are used for evaluation
+    * `Protocol II`: All the 280 videos of `testing` are used for evaluation and all the 1,120 videos of `training` are allowed to use for training
+* Available for training (if you don't follow `Protocol I`)
+* Test set labels are made public
+* Long
+* Large
 ### Statistics
 ### Caveats
