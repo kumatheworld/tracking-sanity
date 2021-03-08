@@ -50,4 +50,13 @@
 * Short
 * Easy
 ### Statistics
+* Overall
+    | #Videos |    #Frames | #Object <br> classes | #Attributes | Size <br> (GB) |  Coordinate <br> origin |
+    | ------: | ---------: | -------------------: | ----------: | -------------: |  ---------------------: |
+    |  30,643 | 14,431,266 |                   27 |          15 |          1,088 |                       1 |
+* Split-wise
+    | Split | #Videos |    #Frames | Size <br> (GB) |
+    | :-----| ------: | ---------: | -------------: |
+    | TRAIN |  30,132 | 14,205,677 |          1,054 |
+    | TEST  |     511 |    225,589 |             34 |
 ### Caveats
