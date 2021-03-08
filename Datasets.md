@@ -40,3 +40,8 @@
 * 2 videos have invalid bounding boxes at the very end.
     * The 698th bounding box `(0, 0, 0, 0)` of `Board`
     * The 472nd bounding box `(0, 0, 0, 0)` of `Twinnings`
+
+## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/)                                        [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
+### Features
+### Statistics
+### Caveats
