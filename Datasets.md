@@ -118,5 +118,15 @@
 
 ## GOT-10k [TPAMI2019] [:globe_with_meridians:](http://got-10k.aitestunion.com/) [:memo:](https://arxiv.org/abs/1810.11981) [:octocat:](https://github.com/got-10k/toolkit)
 ### Features
+* Meant for one-shot evaluation
+    * No object class overlap but `person` between the training set and the test set
+    * **To evaluate your tracker on GOT-10k, you're only allowed to use the training split of GOT-10k for training**
+        * Pre-training on ImageNet is allowed
+* Offers extra annotations
+    * Video-level labels are: object class, motion class, ...
+    * Frame-level labels are: target presence, object visibility at 9 different levels, target being clipped or not
+* Available for training
+* Sequesters the test set annotations and provides an [evaluation server](http://got-10k.aitestunion.com/submit_instructions)
+* Large
 ### Statistics
 ### Caveats
