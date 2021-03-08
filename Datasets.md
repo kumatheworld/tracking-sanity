@@ -104,3 +104,13 @@
     | training |   1,120 | 2,831,982 |            188 |
     | testing  |     280 |   685,360 |             48 |
 ### Caveats
+* A few videos have invalid bounding boxes where the target is present (i.e. not occluded nor out-of-view).
+    | Video        | Split    | Frame No. |     BBox (x, y, w, h) |
+    | :----------- | :------- | --------: | --------------------: |
+    | lizard-16    | training |       322 |          (1, 1, 0, 0) |
+    | person-7     | training |     2,111 |        (2, 2, -1, -1) |
+    | pool-4       | training |       146 |        (1, 1, -1, -1) |
+    | tank-17      | training |       627 | (1125, 730, 155, -10) |
+    | tiger-6      |  testing |       118 |  (613, 731, 247, -11) |
+    | lion-5       |  testing |       553 |        (1, 1, -1, -1) |
+    | microphone-6 |  testing |      1108 |          (1, 1, 0, 0) |
