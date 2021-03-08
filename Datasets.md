@@ -43,5 +43,11 @@
 
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/)                                        [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
+* **Human annotations take up only ~3% and the rest is annotated by running trackers**
+* Available for training
+* Sequesters the test set and provides an [evaluation server](http://eval.tracking-net.org/web/challenges/challenge-page/39/overview)
+* Huge
+* Short
+* Easy
 ### Statistics
 ### Caveats
