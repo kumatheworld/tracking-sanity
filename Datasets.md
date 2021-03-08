@@ -4,6 +4,7 @@
     * [OTB2015](#otb2015-tpami2015-globe_with_meridians-memo)
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
+    * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
 * Test-only (not for training)
@@ -114,3 +115,8 @@
     | tiger-6      |  testing |       118 |  (613, 731, 247, -11) |
     | lion-5       |  testing |       553 |        (1, 1, -1, -1) |
     | microphone-6 |  testing |      1108 |          (1, 1, 0, 0) |
+
+## GOT-10k [TPAMI2019] [:globe_with_meridians:](http://got-10k.aitestunion.com/) [:memo:](https://arxiv.org/abs/1810.11981) [:octocat:](https://github.com/got-10k/toolkit)
+### Features
+### Statistics
+### Caveats
