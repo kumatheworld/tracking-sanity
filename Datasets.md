@@ -34,6 +34,15 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | 2018 |      60 |     21,356 |            1.7 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
 | 2019 |      60 |     19,935 |            1.6 | 12 videos replaced with GOT-10k videos  | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
 | 2020 |      60 |     19,945 |            1.6 | 1 video replaced                        | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
+#### Used Datasets (partially uncertain)
+* ??? for `VOT2013`
+* [VOT2013](https://www.votchallenge.net/vot2013/), [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560) for `VOT2014`
+* [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), [PTR](https://link.springer.com/chapter/10.1007/978-3-642-38886-6_61) for `VOT2015` and `VOT2016`
+* [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ??? for `VOT2017` and `VOT2018`
+    * In the [VOT2018 paper](http://prints.vicos.si/publications/365), [NUS-PRO](https://www.ece.nus.edu.sg/lv/pro/nus_pro.html) was prohibited for learning, whereas PTR was not mentioned. Were some videos from PTR replaced with some NUS-PRO ones?
+    * Note that [TempleColor128](https://www3.cs.stonybrook.edu/~hling/data/TColor-128/TColor-128.html) is also prohibited for learning because it has some OTB videos.
+* [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ???, [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat) for `VOT2019` and `VOT2020`
+    * At most 15 GOT-10k videos are finally used for replacement but [1,000 videos](https://www.votchallenge.net/vot2019/res/list0_prohibited_1000.txt) were prohibited for learning.
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
