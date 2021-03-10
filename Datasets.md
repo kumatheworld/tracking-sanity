@@ -5,6 +5,10 @@
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
+### General caveats
+* **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and sensitivity of metrics make it conceivable.
+* Prepare well for the huge datasets!
+
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
 * Test-only (not for training)
