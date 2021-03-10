@@ -55,6 +55,12 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 #### Features
 * Unique metrics of tracking precision, tracking recall and tracking F-score
 * Video-level annotations of 9 attributes (full occlusion, out-of-view, partial occlusion, camera motion, fast motion, scale change, aspect ratio change, viewpoint change, similar objects)
+#### Statistics
+| Year | #Videos |    #Frames | Size <br> (GB) | Update from previous year               | Links |
+| ---: | ------: | ---------: | -------------: | :-------------------------------------- | :---- |
+| 2018 |      35 |    146,847 |             10 | N/A                                     | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
+| 2019 |      50 |    215,294 |             16 | 15 videos added                         | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
+| 2020 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
