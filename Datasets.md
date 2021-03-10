@@ -206,6 +206,8 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     | Val    |     180 |    21,007 |                  150 |            1.2 |
     | Test   |     180 |    22,834 |                   84 |            1.3 |
 ### Caveats
+* If you evaluate your tracker on `VOT2019` or `VOT2020`, **you can't use some part of this dataset**.
+    * See https://www.votchallenge.net/vot2019/res/list0_prohibited_1000.txt.
 * There are neither 10K videos nor 1.5M frames in contrast to authors' claim.
 * `Test` has only 180 videos, not 420 videos as the authors say.
 * The frame resolution sometimes changes in a video.
