@@ -9,6 +9,8 @@
 * **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and sensitivity of metrics make it conceivable.
 * Prepare well for the huge datasets!
 
+## VOT [:globe_with_meridians:](https://www.votchallenge.net/) [:octocat:](https://github.com/votchallenge/vot-toolkit-python)
+
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
 * Test-only (not for training)
