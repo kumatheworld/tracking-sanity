@@ -19,6 +19,10 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 ### Common Caveats
 * Since each dataset is made from existing datasets, **don't use them for training/tuning your tracker**.
 ### VOT Short-Term Challenges
+#### Features
+* Unique evaluation protocols and associated metrics of average overlap, robustness and expected average overlap (EAO, since `VOT2015`)
+* The test sets sequestered completely (since `VOT2017`)
+* Frame-level annotations of 5 attributes (occlusion, illumination change, motion change, size change, camera motion)
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
