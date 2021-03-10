@@ -52,6 +52,9 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * Some people take adventage of this and **try to overfit the dataset** by tuning some hyperparameters.
         * See e.g. https://github.com/hqucv/siamban/issues/32 or https://github.com/zhanght021/RPT/issues/11.
 ### VOT Long-Term Challenges
+#### Features
+* Unique metrics of tracking precision, tracking recall and tracking F-score
+* Video-level annotations of 9 attributes (full occlusion, out-of-view, partial occlusion, camera motion, fast motion, scale change, aspect ratio change, viewpoint change, similar objects)
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
