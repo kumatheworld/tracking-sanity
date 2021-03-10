@@ -15,6 +15,8 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * Every dataset mostly consists of a **mixture of existing datasets**
 * The datasets are carefully constructed and mostly recycled every year
 * Small
+### Common Caveats
+* Since each dataset is made from existing datasets, **don't use them for training/tuning your tracker**.
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
