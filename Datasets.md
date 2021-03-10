@@ -23,6 +23,17 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * Unique evaluation protocols and associated metrics of average overlap, robustness and expected average overlap (EAO, since `VOT2015`)
 * The test sets sequestered completely (since `VOT2017`)
 * Frame-level annotations of 5 attributes (occlusion, illumination change, motion change, size change, camera motion)
+#### Statistics (of the public datasets, not of the sequestered datasets)
+| Year | #Videos |    #Frames | Size <br> (GB) | Update from previous year               | Links |
+| ---: | ------: | ---------: | -------------: | :-------------------------------------- | :---- |
+| 2013 |      16 |      5,681 |            0.3 | N/A                                     | [:globe_with_meridians:](https://www.votchallenge.net/vot2013/) [:memo:](http://prints.vicos.si/publications/304) |
+| 2014 |      25 |     10,213 |            0.4 | (Complicated)                           | [:globe_with_meridians:](https://www.votchallenge.net/vot2014/) [:memo:](http://prints.vicos.si/publications/315) |
+| 2015 |      60 |     21,455 |            1.3 | (Complicated)                           | [:globe_with_meridians:](https://www.votchallenge.net/vot2015/) [:memo:](http://prints.vicos.si/publications/325) |
+| 2016 |      60 |     21,455 |            1.3 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2016/) [:memo:](http://prints.vicos.si/publications/340) |
+| 2017 |      60 |     21,356 |            1.3 | 10 videos replaced with some new videos | [:globe_with_meridians:](https://www.votchallenge.net/vot2017/) [:memo:](http://prints.vicos.si/publications/359) |
+| 2018 |      60 |     21,356 |            1.7 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
+| 2019 |      60 |     19,935 |            1.6 | 12 videos replaced with GOT-10k videos  | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
+| 2020 |      60 |     19,945 |            1.6 | 1 video replaced                        | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
