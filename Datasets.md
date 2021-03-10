@@ -43,6 +43,13 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * Note that [TempleColor128](https://www3.cs.stonybrook.edu/~hling/data/TColor-128/TColor-128.html) is also prohibited for learning because it has some OTB videos.
 * [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ???, [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat) for `VOT2019` and `VOT2020`
     * At most 15 GOT-10k videos are finally used for replacement but [1,000 videos](https://www.votchallenge.net/vot2019/res/list0_prohibited_1000.txt) were prohibited for learning.
+#### Caveats (Important!!)
+* Research papers use the public sets for test since the true test sets are not available.
+* The test results seem **very sensitive**.
+    * See e.g. https://github.com/STVIR/pysot/discussions/94, https://github.com/visionml/pytracking/issues/79 or https://github.com/MegviiDetection/video_analyst/issues/109.
+    * You might see ~30% performance changes in EAO with a small perturbation to few of your parameters.
+    * Some people take adventage of this and **try to overfit the dataset** by tuning some hyperparameters.
+        * See e.g. https://github.com/hqucv/siamban/issues/32 or https://github.com/zhanght021/RPT/issues/11.
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
