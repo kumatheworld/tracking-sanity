@@ -10,6 +10,7 @@
 * Prepare well for the huge datasets!
 
 ## VOT [:globe_with_meridians:](https://www.votchallenge.net/) [:octocat:](https://github.com/votchallenge/vot-toolkit-python)
+VOT (Visual Object Tracking) Challenge is a competition that has been held as a workshop of ICCV/ECCV every year since 2013. Besides its main [short-term challenges](vot-short-term-challenges), [long-term challenges](vot-long-term-challenges) and multimodal tracking challenges have taken place recently.
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
 ### Features
