@@ -1,7 +1,7 @@
 # Datasets
 * [VOT](#vot-globe_with_meridians-octocat)
-    * [Short-Term](vot-short-term-challenges) (VOT2013, VOT2014, VOT2015, VOT2016, VOT2017, VOT2018, VOT2019, VOT2020)
-    * [Long-Term](vot-long-term-challenges) (VOT-LT2018, VOT-LT2019, VOT-LT2020)
+    * [Short-Term](#vot-short-term-challenges) (VOT2013, VOT2014, VOT2015, VOT2016, VOT2017, VOT2018, VOT2019, VOT2020)
+    * [Long-Term](#vot-long-term-challenges) (VOT-LT2018, VOT-LT2019, VOT-LT2020)
     * Infrared and Thermal Imagery (VOT-TIR2015, VOT-TIR2016)
     * Real-Time (VOT-RT2019, VOT-RT2020)
     * RGBT (VOT-RGBT2019, VOT-RGBT2020)
@@ -16,7 +16,7 @@
 * Prepare well for the huge datasets!
 
 ## VOT [:globe_with_meridians:](https://www.votchallenge.net/) [:octocat:](https://github.com/votchallenge/vot-toolkit-python)
-VOT (Visual Object Tracking) Challenge is a competition that has been held as a workshop of ICCV/ECCV every year since 2013. Besides its main [short-term challenges](vot-short-term-challenges), [long-term challenges](vot-long-term-challenges) and multimodal tracking challenges have taken place recently.
+VOT (Visual Object Tracking) Challenge is a competition that has been held as a workshop of ICCV/ECCV every year since 2013. Besides its main [short-term challenges](#vot-short-term-challenges), [long-term challenges](#vot-long-term-challenges) and multimodal tracking challenges have taken place recently.
 ### Common Features
 * Every dataset mostly consists of a **mixture of existing datasets**
 * The datasets are carefully constructed and mostly recycled every year
