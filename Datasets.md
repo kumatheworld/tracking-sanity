@@ -11,6 +11,7 @@
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
+    * [LaSOT-extension](#lasot-extension-ijcv2021-globe_with_meridians-memo-octocat)
 ### General caveats
 * **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and the sensitivity of metrics make it conceivable.
 * Prepare well for the huge datasets!
@@ -244,3 +245,5 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * You might not get the dataset link after sending a request with your e-mail address.
     * See https://github.com/got-10k/toolkit/issues/41.
     * I tried 2 different e-mail addresses but none of them worked.
+
+## LaSOT-extension [IJCV2021] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/2009.03465) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
