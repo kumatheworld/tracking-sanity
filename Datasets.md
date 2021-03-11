@@ -248,3 +248,4 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * I tried 2 different e-mail addresses but none of them worked.
 
 ## LaSOT-extension [IJCV2021] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/2009.03465) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
+**Note:** LaSOT-extension is not an official name and is considered part of [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat).
