@@ -261,3 +261,6 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
 | ------: | ---------: | -------------------: | -----: | -------------: | ---------------------: |
 |     150 |    359,169 |                   15 |     14 |             60 |                      ? |
+### Caveats
+* The coordinate origin is not clear in contrast to the other LaSOT videos.
+    * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
