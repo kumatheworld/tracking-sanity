@@ -257,3 +257,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * All the 1,400 videos of LaSOT are allowed to use for training
     * Is training on other datasets not banned?
 * Test-only (not for training)
+### Statistics
+| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
+| ------: | ---------: | -------------------: | -----: | -------------: | ---------------------: |
+|     150 |    359,169 |                   15 |     14 |             60 |                      ? |
