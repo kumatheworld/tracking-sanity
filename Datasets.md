@@ -249,3 +249,11 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 
 ## LaSOT-extension [IJCV2021] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/2009.03465) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
 **Note:** LaSOT-extension is not an official name and is considered part of [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat).
+### Features
+* Extends LaSOT with 150 videos that have no class overlap with it
+    * Again balanced class distribution (15 object classes x 10 videos/class)
+    * The 15 classes don't have any overlap with ImageNet either
+* Meant for one-shot evaluation
+    * All the 1,400 videos of LaSOT are allowed to use for training
+    * Is training on other datasets not banned?
+* Test-only (not for training)
