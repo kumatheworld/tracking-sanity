@@ -81,6 +81,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | ------: | ------: | -------------------: | -----: | -------------: |  ---------------------: |
 |     100 |  59,040 |                   16 |     11 |            2.7 |                       ? |
 ### Caveats
+* Has some overlaps with [TempleColor128](https://www3.cs.stonybrook.edu/~hling/data/TColor-128/TColor-128.html) or [VOT short-term challenges](#vot-short-term-challenges).
 * In the following 5 videos, the annotation length is shorter than the video length.
     | Video     | #Frames | #BBoxes | True range in .jpg | Remarks |
     | :-------- | ------: | ------: | :----------------: | :------ |
