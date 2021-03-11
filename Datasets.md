@@ -148,7 +148,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * That means you can't get the correct order just by sorting them (e.g. `10.jpg` comes before `1.jpg`). Use [natsort](https://natsort.readthedocs.io/en/master/) instead.
 
 ## LaSOT [CVPR2019] [:globe_with_meridians:](http://vision.cs.stonybrook.edu/~lasot/) [:memo:](https://arxiv.org/abs/1809.07845) [:octocat:](https://github.com/HengLan/LaSOT_Evaluation_Toolkit)
-**Note:** See also [LaSOT-extension](#lasot-cvpr2019-globe_with_meridians-memo-octocat).
+**Note:** See also [LaSOT-extension](#lasot-extension-ijcv2021-globe_with_meridians-memo-octocat).
 ### Features
 * Balanced class distribution (70 object classes x 20 videos/class)
     * Stratified splits of train (80%) and test (20%)
