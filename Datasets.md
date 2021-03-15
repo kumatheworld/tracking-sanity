@@ -106,7 +106,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * `Box` has `box.zip`.
     * `Human4` has empty `groundtruth_rect1.txt`.
     * `Panda` has `panda-all.txt`.
-* There are bounding boxes sticking out of the FOV.
+* There are bounding boxes sticking out of the FoV.
     * Examples:
         * The 75th bounding box `(348, -10, 32, 35)` of `Biker`
         * The 274th bounding box `(268, 60, 60, 83)` of `Trellis`, whose resolution is `320 x 240`
@@ -139,7 +139,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
         * `TRAIN_{0..11}.zip` (~90GB each) and `TEST.zip` (34GB).
         * If you don't delete .zip files after extraction, you'll end up using over a **3TB** of space!
 * Watch out for the "human annotations at 1 fps" feature!
-    * Many bounding boxes are sticking out of the FOV.
+    * Many bounding boxes are sticking out of the FoV.
         * See https://github.com/SilvioGiancola/TrackingNet-devkit/issues/23.
     * Human annotations do not happen every 30 frames exactly.
         * E.g. `TRAIN_0/A1RSx6j_ra0_4` seems to have human annotations at the following: `1, 31, 61, 91, ..., 451, 481, 510, 540`.
