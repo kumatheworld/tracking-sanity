@@ -8,6 +8,7 @@
     * RGBD (VOT-RGBD2019, VOT-RGBD2020)
 * Others
     * [OTB2015](#otb2015-tpami2015-globe_with_meridians-memo)
+    * [UAV123](#uav123-eccv2016-globe_with_meridians-memo)
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
@@ -114,6 +115,8 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * 2 videos have invalid bounding boxes at the very end.
     * The 698th bounding box `(0, 0, 0, 0)` of `Board`
     * The 472nd bounding box `(0, 0, 0, 0)` of `Twinnings`
+
+## UAV123 [ECCV2016] [:globe_with_meridians:](https://cemse.kaust.edu.sa/ivul/uav123) [:memo:](https://www.researchgate.net/publication/308278377_A_Benchmark_and_Simulator_for_UAV_Tracking)
 
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
