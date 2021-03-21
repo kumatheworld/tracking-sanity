@@ -117,6 +117,9 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * The 472nd bounding box `(0, 0, 0, 0)` of `Twinnings`
 
 ## UAV123 [ECCV2016] [:globe_with_meridians:](https://cemse.kaust.edu.sa/ivul/uav123) [:memo:](https://www.researchgate.net/publication/308278377_A_Benchmark_and_Simulator_for_UAV_Tracking)
+### Features
+* Each video is taken from a UAV as its name suggests
+* Provides multiple splits (UAV123, UAV20L, UAV123_10fps) that overlap each other
 
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
