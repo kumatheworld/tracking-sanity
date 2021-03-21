@@ -2,7 +2,7 @@
 This repository helps you study visual tracking (single & generic object tracking) by taking a close look at recent datasets and trackers.
 
 ## Datasets
-Tracking datasets out there are not always well-annotated, (often implicitly) different in format and not always mutually exclusive, where you could easily lead yourself astray. In addition to the rough statistics below, we provide more details about the individual datasets in [Datasets.md](Datasets.md).
+Tracking datasets out there are sometimes ill-annotated, implicitly different in format, and not always mutually exclusive, where you could easily lead yourself astray. In addition to the rough statistics below, we provide more details about the individual datasets in [Datasets.md](Datasets.md).
 ### [VOT](Datasets.md/#vot-globe_with_meridians-octocat) [:globe_with_meridians:](https://www.votchallenge.net/) [:octocat:](https://github.com/votchallenge/vot-toolkit-python)
 * [Short-term challenges](Datasets.md/#vot-short-term-challenges) (Note: the table below is about the public datasets, not about the sequestered datasets)
     | Year | #Videos |    #Frames | Size <br> (GB) | Update from previous year               | Links |
