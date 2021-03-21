@@ -120,6 +120,17 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 ### Features
 * Each video is taken from a UAV as its name suggests
 * Provides multiple splits (UAV123, UAV20L, UAV123_10fps) that overlap each other
+### Statistics
+* Overall
+    | Size <br> (GB) | #Object <br> classes | #Attr. | Coordinate <br> origin |
+    | -------------: | -------------------: | -----: | ---------------------: |
+    |             18 |                    9 |     12 |                      1 |
+* Split-wise
+    | Split        | #Videos | #Frames | Size <br> (GB) |
+    | :----------- | ------: | ------: | -------------: |
+    | UAV123       |     123 | 112,578 |             13 |
+    | UAV20L       |      20 |  58,670 |            6.6 |
+    | UAV123_10fps |     123 |  37,607 |            4.4 |
 
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
