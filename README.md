@@ -33,7 +33,7 @@ Tracking datasets out there are sometimes ill-annotated, implicitly different in
 
 **Notes**
 * A video here means an annotated sequence of images. 2 identical image sequences with different annotations (e.g. `Jogging.1` and `Jogging.2` of `OTB2015`) are considered different.
-    * Size (GB) here however does not double-count images. It means the total size of the dataset you actually get.
+    * However, the `Size(GB)` column does not double-count images. It means the total size of the dataset you actually get.
 * `UAV20L` and `UAV123_10fps` are considered part of `UAV123` and not counted here.
 
 ## Trackers
