@@ -215,6 +215,7 @@ Nothing.
     * Frame-level labels are: target presence, object visibility at 9 different levels, target being clipped or not
 * Available for training
 * Sequesters the test set annotations and provides an [evaluation server](http://got-10k.aitestunion.com/submit_instructions)
+* 10 FPS
 * Large
 ### Statistics
 * Overall
