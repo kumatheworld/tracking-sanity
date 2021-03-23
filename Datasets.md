@@ -211,7 +211,7 @@ Nothing.
     * **To evaluate your tracker on GOT-10k, you're only allowed to use the training split of GOT-10k for training**
         * Pre-training on ImageNet is allowed
 * Offers extra annotations
-    * Video-level labels are: object class, motion class, ...
+    * Video-level labels are: object class, motion class, etc
     * Frame-level labels are: target presence, object visibility at 9 different levels, target being clipped or not
 * Available for training
 * Sequesters the test set annotations and provides an [evaluation server](http://got-10k.aitestunion.com/submit_instructions)
