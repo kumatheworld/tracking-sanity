@@ -79,9 +79,9 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * Small
 * Easy
 ### Statistics
-| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |  Coordinate <br> origin |
-| ------: | ------: | -------------------: | -----: | -------------: |  ---------------------: |
-|     100 |  59,040 |                   16 |     11 |            2.7 |                       ? |
+| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ------: | -------------------: | -----: | -------------: |
+|     100 |  59,040 |                   16 |     11 |            2.7 |
 ### Caveats
 * Has some overlaps with [TempleColor128](https://www3.cs.stonybrook.edu/~hling/data/TColor-128/TColor-128.html) or [VOT short-term challenges](#vot-short-term-challenges).
 * In the following 5 videos, the annotation length is shorter than the video length.
@@ -122,9 +122,9 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * Provides multiple splits (UAV123, UAV20L, UAV123_10fps) that overlap each other
 ### Statistics
 * Overall
-    | Size <br> (GB) | #Object <br> classes | #Attr. | Coordinate <br> origin |
-    | -------------: | -------------------: | -----: | ---------------------: |
-    |             18 |                    9 |     12 |                      1 |
+    | Size <br> (GB) | #Object <br> classes | #Attr. |
+    | -------------: | -------------------: | -----: |
+    |             18 |                    9 |     12 |
 * Split-wise
     | Split        | #Videos | #Frames | Size <br> (GB) |
     | :----------- | ------: | ------: | -------------: |
@@ -144,9 +144,9 @@ Nothing.
 * Easy
 ### Statistics
 * Overall
-    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |  Coordinate <br> origin |
-    | ------: | ---------: | -------------------: | -----: | -------------: |  ---------------------: |
-    |  30,643 | 14,431,266 |                   27 |     15 |          1,088 |                       1 |
+    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+    | ------: | ---------: | -------------------: | -----: | -------------: |
+    |  30,643 | 14,431,266 |                   27 |     15 |          1,088 |
 * Split-wise
     | Split | #Videos |    #Frames | Size <br> (GB) |
     | :-----| ------: | ---------: | -------------: |
@@ -184,9 +184,9 @@ Nothing.
 * Large
 ### Statistics
 * Overall
-    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
-    | ------: | ---------: | -------------------: | -----: | -------------: | ---------------------: |
-    |   1,400 |  3,517,342 |                   70 |     14 |            237 |                      1 |
+    | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+    | ------: | ---------: | -------------------: | -----: | -------------: |
+    |   1,400 |  3,517,342 |                   70 |     14 |            237 |
 * Split-wise
     | Split    | #Videos |   #Frames | Size <br> (GB) |
     | :------- | ------: | --------: | -------------: |
@@ -218,9 +218,9 @@ Nothing.
 * Large
 ### Statistics
 * Overall
-    | #Videos |   #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
-    | ------: | --------: | -------------------: | -----: | -------------: | ---------------------: |
-    |   9,695 | 1,447,200 |                  563 |      6 |             75 |                     1? |
+    | #Videos |   #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+    | ------: | --------: | -------------------: | -----: | -------------: |
+    |   9,695 | 1,447,200 |                  563 |      6 |             75 |
 * Split-wise
     | Split  | #Videos |   #Frames | #Object <br> classes | Size <br> (GB) |
     | :----- | ------: | --------: | -------------------: | -------------: |
@@ -277,9 +277,9 @@ Nothing.
     * Is training on other datasets not banned?
 * Test-only (not for training)
 ### Statistics
-| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Coordinate <br> origin |
-| ------: | ---------: | -------------------: | -----: | -------------: | ---------------------: |
-|     150 |    359,169 |                   15 |     14 |             60 |                      ? |
+| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ---------: | -------------------: | -----: | -------------: |
+|     150 |    359,169 |                   15 |     14 |             60 |
 ### Caveats
 * The coordinate origin is not clear in contrast to the other LaSOT videos.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
