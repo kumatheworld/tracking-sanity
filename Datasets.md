@@ -120,6 +120,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 ### Features
 * Each video is taken from a UAV as its name suggests
 * Provides multiple splits (UAV123, UAV20L, UAV123_10fps) that overlap each other
+* Test-only (not for training)
 ### Statistics
 * Overall
     | Size <br> (GB) | #Object <br> classes | #Attr. |
