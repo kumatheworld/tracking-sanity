@@ -140,6 +140,16 @@ Nothing.
 ### Features
 * High frame rate (240 FPS)
     * Also provides a 30 FPS version with synthesized motion blur
+### Statistics
+* Overall
+    | #Object <br> classes | #Attr. | Size <br> (GB) |
+    | -------------------: | -----: | -------------: |
+    |                   17 |      9 |             46 |
+* Split-wise
+    |  FPS  | #Videos | #Frames | Size <br> (GB) |
+    | ----: | ------: | ------: | -------------: |
+    |   240 |     100 | 382,988 |             41 |
+    |    30 |     100 |  48,399 |            5.1 |
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
 * **Human annotations take up only ~3% and the rest is annotated by running trackers**
