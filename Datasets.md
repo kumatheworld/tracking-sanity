@@ -9,6 +9,7 @@
 * Others
     * [OTB2015](#otb2015-tpami2015-globe_with_meridians-memo)
     * [UAV123](#uav123-eccv2016-globe_with_meridians-memo)
+    * [Need for Speed](#need-for-speed-iccv2017-globe_with_meridians-memo)
     * [TrackingNet](#trackingnet-eccv2018-globe_with_meridians-memo-octocat)
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
@@ -135,6 +136,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 ### Caveats
 Nothing.
 
+## Need for Speed [ICCV2017] [:globe_with_meridians:](http://ci2cv.net/nfs/index.html) [:memo:](https://arxiv.org/abs/1703.05884)
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
 * **Human annotations take up only ~3% and the rest is annotated by running trackers**
