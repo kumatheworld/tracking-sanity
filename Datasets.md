@@ -150,6 +150,13 @@ Nothing.
     | ----: | ------: | ------: | -------------: |
     |   240 |     100 | 382,988 |             41 |
     |    30 |     100 |  48,399 |            5.1 |
+### Caveats
+* The 30fps version of `dog_2` seems nothing but `dog` rather than a downsampled version of the 240 fps video.
+* In the following 10 videos, whether 240 FPS or 30 FPS, the annotation length is shorter than the video length by 1.
+    * `Gymnastics`, `Skydiving`, `airtable_3`,  `basketball_2`, `beach_flipback_person`, `bowling_ball`, `motorcross`, `parkour`, `shuffletable_4`, `soccer_ball_2`.
+* The coordinate origin seems 0.
+    * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
+
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
 * **Human annotations take up only ~3% and the rest is annotated by running trackers**
