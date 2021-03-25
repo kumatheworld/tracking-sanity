@@ -137,6 +137,9 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 Nothing.
 
 ## Need for Speed [ICCV2017] [:globe_with_meridians:](http://ci2cv.net/nfs/index.html) [:memo:](https://arxiv.org/abs/1703.05884)
+### Features
+* High frame rate (240 FPS)
+    * Also provides a 30 FPS version with synthesized motion blur
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
 ### Features
 * **Human annotations take up only ~3% and the rest is annotated by running trackers**
