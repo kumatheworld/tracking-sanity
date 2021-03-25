@@ -36,6 +36,7 @@ Tracking datasets out there are sometimes ill-annotated, implicitly different in
 * A video here means an annotated sequence of images. 2 identical image sequences with different annotations (e.g. `Jogging.1` and `Jogging.2` of `OTB2015`) are considered different.
     * However, the `Size(GB)` column does not double-count images. It means the total size of the dataset you actually get.
 * `UAV20L` and `UAV123_10fps` are considered part of `UAV123` and not counted here.
+* The 30 FPS version of `Need for Speed` is not counted here.
 
 ## Trackers
 Trackers out there are often trained, tested or evaluated in different ways, which makes a fair comparison hard. Here, we not only keep track of the state-of-the-art but also try to clarify the way the results are produced, based on public papers, code and discussion. More details will be provided in [Trackers.md](Trackers.md).
