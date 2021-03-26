@@ -310,3 +310,8 @@ Nothing.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
 
 ## TREK-100 [ArXiv2020] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek100/) [:memo:](https://arxiv.org/abs/2011.12263)
+### Features
+* Made of first person vision videos of the [EPIC-KITCHENS-100](https://epic-kitchens.github.io/2021) dataset
+* Test-only
+* Hard
+* Small
