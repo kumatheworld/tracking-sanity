@@ -315,3 +315,7 @@ Nothing.
 * Test-only
 * Hard
 * Small
+### Statistics
+| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ---------: | -------------------: | -----: | -------------: |
+|     100 |     60,054 |                   29 |     17 |            2.0 |
