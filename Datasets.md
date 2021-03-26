@@ -14,6 +14,7 @@
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
     * [LaSOT-extension](#lasot-extension-ijcv2021-globe_with_meridians-memo-octocat)
+    * [TREK-100](#trek-100-arxiv2020-globe_with_meridians-memo)
 ### General caveats
 * **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and the sensitivity of metrics make it conceivable.
 * Prepare well for the huge datasets!
@@ -307,3 +308,5 @@ Nothing.
 ### Caveats
 * The coordinate origin is not clear in contrast to the other LaSOT videos.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
+
+## TREK-100 [ArXiv2020] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek100/) [:memo:](https://arxiv.org/abs/2011.12263)
