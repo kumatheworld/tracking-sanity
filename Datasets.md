@@ -319,3 +319,9 @@ Nothing.
 | #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
 | ------: | ---------: | -------------------: | -----: | -------------: |
 |     100 |     60,054 |                   29 |     17 |            2.0 |
+### Caveats
+* Although it is small, the preparation process based on the provided code is a bit painful.
+    * The dataset temporarily swells up to **hundreds of gigabytes**. This is because the dataset is constructed by trimming a whole bunch of large videos that you have to download. Only after downloading them all does the code ever delete those video files.
+        * To get around this, you can modify the code to delete the videos as soon as the necessary frames are extracted.
+* The coordinate origin seems 0.
+    * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
