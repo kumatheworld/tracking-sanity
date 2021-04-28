@@ -1,11 +1,11 @@
 # Datasets
 * [VOT](#vot-globe_with_meridians-octocat)
-    * [Short-Term](#vot-short-term-challenges) (VOT2013, VOT2014, VOT2015, VOT2016, VOT2017, VOT2018, VOT2019, VOT2020)
-    * [Long-Term](#vot-long-term-challenges) (VOT-LT2018, VOT-LT2019, VOT-LT2020)
+    * [Short-Term](#vot-short-term-challenges) (VOT2013, VOT2014, VOT2015, VOT2016, VOT2017, VOT2018, VOT2019, VOT2020, VOT2021)
+    * [Long-Term](#vot-long-term-challenges) (VOT-LT2018, VOT-LT2019, VOT-LT2020, VOT-LT2021)
     * Infrared and Thermal Imagery (VOT-TIR2015, VOT-TIR2016)
-    * Real-Time (VOT-RT2019, VOT-RT2020)
+    * Real-Time (VOT-RT2019, VOT-RT2020, VOT-RT2021)
     * RGBT (VOT-RGBT2019, VOT-RGBT2020)
-    * RGBD (VOT-RGBD2019, VOT-RGBD2020)
+    * RGBD (VOT-RGBD2019, VOT-RGBD2020, VOT-RGBD2021)
 * Others
     * [OTB2015](#otb2015-tpami2015-globe_with_meridians-memo)
     * [UAV123](#uav123-eccv2016-globe_with_meridians-memo)
@@ -44,6 +44,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | 2018 |      60 |     21,356 |            1.7 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
 | 2019 |      60 |     19,935 |            1.6 | 12 videos replaced with GOT-10k videos  | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
 | 2020 |      60 |     19,945 |            1.6 | 1 video replaced                        | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
+| 2021 |      60 |     19,945 |            1.6 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) |
 #### Used Datasets (partially uncertain)
 * ??? for `VOT2013`
 * [VOT2013](https://www.votchallenge.net/vot2013/), [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560) for `VOT2014`
@@ -51,7 +52,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ??? for `VOT2017` and `VOT2018`
     * In the [VOT2018 paper](http://prints.vicos.si/publications/365), [NUS-PRO](https://www.ece.nus.edu.sg/lv/pro/nus_pro.html) was prohibited for learning, whereas PTR was not mentioned. Were some videos from PTR replaced with some NUS-PRO ones?
     * Note that [TempleColor128](https://www3.cs.stonybrook.edu/~hling/data/TColor-128/TColor-128.html) is also prohibited for learning because it has some OTB videos.
-* [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ???, [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat) for `VOT2019` and `VOT2020`
+* [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560), ???, [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat) after `VOT2019`
     * At most 15 GOT-10k videos are finally used for replacement but [1,000 videos](https://www.votchallenge.net/vot2019/res/list0_prohibited_1000.txt) were prohibited for learning.
 #### Caveats (Important!!)
 * Research papers use the public sets for test since the true test sets are not available.
@@ -70,10 +71,11 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | 2018 |      35 |    146,847 |             10 | N/A                                     | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
 | 2019 |      50 |    215,294 |             16 | 15 videos added                         | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
 | 2020 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
+| 2021 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) |
 #### Used Datasets
 * [LTB35](https://arxiv.org/abs/1804.07056) for `VOT-LT2018`
     * Made from [UAV20L](https://cemse.kaust.edu.sa/ivul/uav123) (20), [TLD](http://vision.stanford.edu/teaching/cs231b_spring1415/papers/Kalal-PAMI.pdf) (3), some YouTube videos (6), and [AMP](https://arxiv.org/abs/1612.00089) (6).
-* LTB50 for `VOT-LT2019` and `VOT-LT2020`
+* LTB50 after `VOT-LT2019`
     * The construction is not clear but seems a superset of [LTB35](https://arxiv.org/abs/1804.07056).
 
 ## OTB2015 [TPAMI2015] [:globe_with_meridians:](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html) [:memo:](https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf)
