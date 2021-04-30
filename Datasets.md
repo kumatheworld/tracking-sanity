@@ -338,3 +338,13 @@ Nothing.
 * Contains thermal images
 * Contains a lot of synthetic images from cartoons or games
 * Available for training
+### Statistics
+* Overall
+    | #Videos |   #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+    | ------: | --------: | -------------------: | -----: | -------------: |
+    |   2,000 | 1,447,200 |                    ? |     17 |            197 |
+* Split-wise
+    | Split   | #Videos | #Frames | Size <br> (GB) |
+    | :------ | ------: | ------: | -------------: |
+    | train   |   1,300 | 728,302 |            112 |
+    | testing |     700 | 516,038 |           85.4 |
