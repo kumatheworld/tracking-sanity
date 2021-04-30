@@ -305,9 +305,9 @@ Nothing.
     * Is training on other datasets not banned?
 * Test-only (not for training)
 ### Statistics
-| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
-| ------: | ---------: | -------------------: | -----: | -------------: |
-|     150 |    359,169 |                   15 |     14 |             60 |
+| #Videos |  #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | -------: | -------------------: | -----: | -------------: |
+|     150 |  359,169 |                   15 |     14 |             60 |
 ### Caveats
 * The coordinate origin is not clear in contrast to the other LaSOT videos.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
@@ -319,9 +319,9 @@ Nothing.
 * Hard
 * Small
 ### Statistics
-| #Videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
-| ------: | ---------: | -------------------: | -----: | -------------: |
-|     100 |     60,054 |                   29 |     17 |            2.0 |
+| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ------: | -------------------: | -----: | -------------: |
+|     100 |  60,054 |                   29 |     17 |            2.0 |
 ### Caveats
 * Although it is small, the preparation process based on the provided code is a bit painful.
     * The dataset temporarily swells up to **hundreds of gigabytes**. This is because the dataset is constructed by trimming a whole bunch of large videos that you have to download. Only after downloading them all does the code ever delete those video files.
