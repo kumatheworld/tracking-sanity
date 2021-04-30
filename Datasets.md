@@ -330,3 +330,11 @@ Nothing.
     * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
 
 ## TNL-2k [CVPR2021] [:globe_with_meridians:](https://sites.google.com/view/langtrackbenchmark/) [:memo:](https://arxiv.org/abs/2103.16746) [:octocat:](https://github.com/wangxiao5791509/TNL2K_evaluation_toolkit)
+### Features
+* Each video is given a short description in English that determines the target
+    * This is different from [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat) in that the description of a LaSOT video is not always descriptive enough to determine the target.
+    * That gives us another way of determining the object identity.
+        * For example, when the description is "The man holding the soccer ball" in a soccer game video, the target changes as soon as another man gets the ball from the current target.
+* Contains thermal images
+* Contains a lot of synthetic images from cartoons or games
+* Available for training
