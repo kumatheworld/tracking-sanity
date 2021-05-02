@@ -348,3 +348,23 @@ Nothing.
     | :------ | ------: | ------: | -------------: |
     | train   |   1,300 | 728,302 |            112 |
     | testing |     700 | 516,038 |           85.4 |
+### Caveats
+* The annotation length is sometimes longer than the video length.
+    * See https://github.com/wangxiao5791509/TNL2K_evaluation_toolkit/issues/2.
+* Video names could be better.
+    * Some videos have whitespaces in their names.
+    * Most videos have names ending with `done`, `Done` or `done---`.
+    * A lot of videos are avoidably given Chinese names. To name a few,
+        * `testing/BianSeLong_video_09-Done`. Here, BianSeLong means nothing but chameleon, which they could use instead.
+        * `testing/CartoonKeNAN_video_07`. Here, KeNAN is what Chinese people call the Japanese manga series Detective Conan.
+        * `testing/advSamp_Juediqiusheng_video_003-Done`. Here, `Juediqiusheng` is PlayerUnknown's Battlegrounds (PUBG).
+* English descriptions could be better. For example,
+    * "the target person the player againest with" of `testing/advSamp_Battle_video_1_done`.
+    * "We want to track the girl who wears white skirt and black pants is riding a bike." of `testing/advSamp_monitor_bike5`.
+* The image extension is not unified. Both JPEG and PNG exist.
+* The coordinate origin is not clear.
+* There are bounding boxes sticking out of the FoV.
+* Target absence is probably expressed by `0,0,0,0` in the ground truth text file but there is no explanation.
+* 518 videos are drawn from the following existing datasets.
+    * https://arxiv.org/abs/1801.05944
+    * https://arxiv.org/abs/1805.08982
