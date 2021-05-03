@@ -1,5 +1,5 @@
 # tracking-sanity
-This repository helps you study visual tracking (single & generic object tracking) by taking a close look at recent datasets and trackers.
+This repository helps you study visual tracking (single & generic object tracking) by taking a close look at recent datasets.
 
 ## Datasets
 Tracking datasets out there are sometimes ill-annotated, implicitly different in format, and not always mutually exclusive, where you could easily lead yourself astray. In addition to the rough statistics below, we provide more details about the individual datasets in [Datasets.md](Datasets.md).
@@ -41,6 +41,3 @@ Tracking datasets out there are sometimes ill-annotated, implicitly different in
     * However, the `Size(GB)` column does not double-count images. It means the total size of the dataset you actually get.
 * `UAV20L` and `UAV123_10fps` are considered part of `UAV123` and not counted here.
 * The 30 FPS version of `Need for Speed` is not counted here.
-
-## Trackers
-Trackers out there are often trained, tested or evaluated in different ways, which makes a fair comparison hard. Here, we not only keep track of the state-of-the-art but also try to clarify the way the results are produced, based on public papers, code and discussion. More details will be provided in [Trackers.md](Trackers.md).
