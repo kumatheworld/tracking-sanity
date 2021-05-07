@@ -349,8 +349,6 @@ Nothing.
     | train   |   1,300 | 728,302 |            112 |
     | test    |     700 | 516,038 |           85.4 |
 ### Caveats
-* The annotation length is sometimes longer than the video length.
-    * See https://github.com/wangxiao5791509/TNL2K_evaluation_toolkit/issues/2.
 * Video names could be better.
     * Some videos have whitespaces in their names.
     * Most videos have names ending with `done`, `Done` or `done---`.
