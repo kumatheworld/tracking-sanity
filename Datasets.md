@@ -317,6 +317,10 @@ Nothing.
 ### Features
 * The target objects are transparent
 * Test-only
+### Statistics
+| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ------: | -------------------: | -----: | -------------: |
+|     225 |  85,631 |                   15 |     12 |            8.0 |
 
 ## TREK-100 [ArXiv2020] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek100/) [:memo:](https://arxiv.org/abs/2011.12263)
 ### Features
