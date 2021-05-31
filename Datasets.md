@@ -314,7 +314,9 @@ Nothing.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
 
 ## TOTB [ArXiv2020] [:globe_with_meridians:](https://hengfan2010.github.io/projects/TOTB/) [:memo:](https://arxiv.org/abs/2011.10875)
-Coming soon!
+### Features
+* The target objects are transparent
+* Test-only
 
 ## TREK-100 [ArXiv2020] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek100/) [:memo:](https://arxiv.org/abs/2011.12263)
 ### Features
