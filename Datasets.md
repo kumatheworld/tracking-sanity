@@ -316,6 +316,7 @@ Nothing.
 ## TOTB [ArXiv2020] [:globe_with_meridians:](https://hengfan2010.github.io/projects/TOTB/) [:memo:](https://arxiv.org/abs/2011.10875)
 ### Features
 * The target objects are transparent
+* Balanced class distribution (15 object classes x 15 videos/class)
 * Test-only
 ### Statistics
 | #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
