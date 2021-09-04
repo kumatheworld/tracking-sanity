@@ -14,8 +14,7 @@
     * [LaSOT](#lasot-cvpr2019-globe_with_meridians-memo-octocat)
     * [GOT-10k](#got-10k-tpami2019-globe_with_meridians-memo-octocat)
     * [LaSOT-extension](#lasot-extension-ijcv2021-globe_with_meridians-memo-octocat)
-    * [TOTB](#totb-arxiv2020-globe_with_meridians-memo)
-    * [TREK-100](#trek-100-arxiv2020-globe_with_meridians-memo)
+    * [TOTB](#totb-iccv2021-globe_with_meridians-memo)
     * [TNL-2k](#tnl-2k-cvpr2021-globe_with_meridians-memo-octocat)
 ### General caveats
 * **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and the sensitivity of metrics make it conceivable.
@@ -313,7 +312,7 @@ Nothing.
 * The coordinate origin is not clear in contrast to the other LaSOT videos.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
 
-## TOTB [ArXiv2020] [:globe_with_meridians:](https://hengfan2010.github.io/projects/TOTB/) [:memo:](https://arxiv.org/abs/2011.10875)
+## TOTB [ICCV2021] [:globe_with_meridians:](https://hengfan2010.github.io/projects/TOTB/) [:memo:](https://arxiv.org/abs/2011.10875)
 ### Features
 * The target objects are transparent
 * Balanced class distribution (15 object classes x 15 videos/class)
