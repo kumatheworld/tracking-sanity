@@ -16,6 +16,7 @@
     * [LaSOT-extension](#lasot-extension-ijcv2021-globe_with_meridians-memo-octocat)
     * [TOTB](#totb-iccv2021-globe_with_meridians-memo)
     * [TNL-2k](#tnl-2k-cvpr2021-globe_with_meridians-memo-octocat)
+    * [TREK-150](#trek-150-iccv2021-globe_with_meridians-memo-octocat)
 ### General caveats
 * **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and the sensitivity of metrics make it conceivable.
 * Prepare well for the huge datasets!
@@ -324,23 +325,6 @@ Nothing.
 ### Caveats
 * Nothing
 
-## TREK-100 [ArXiv2020] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek100/) [:memo:](https://arxiv.org/abs/2011.12263)
-### Features
-* Made of first person vision videos of the [EPIC-KITCHENS-100](https://epic-kitchens.github.io/2021) dataset
-* Test-only
-* Hard
-* Small
-### Statistics
-| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
-| ------: | ------: | -------------------: | -----: | -------------: |
-|     100 |  60,054 |                   29 |     17 |            2.0 |
-### Caveats
-* Although it is small, the preparation process based on the provided code is a bit painful.
-    * The dataset temporarily swells up to **hundreds of gigabytes**. This is because the dataset is constructed by trimming a whole bunch of large videos that you have to download. Only after downloading them all does the code ever delete those video files.
-        * To get around this, you can modify the code to delete the videos as soon as the necessary frames are extracted.
-* The coordinate origin seems 0.
-    * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
-
 ## TNL-2k [CVPR2021] [:globe_with_meridians:](https://sites.google.com/view/langtrackbenchmark/) [:memo:](https://arxiv.org/abs/2103.16746) [:octocat:](https://github.com/wangxiao5791509/TNL2K_evaluation_toolkit)
 ### Features
 * Each video is given a short description in English that determines the target
@@ -378,3 +362,21 @@ Nothing.
 * 518 videos are drawn from the following existing datasets.
     * https://arxiv.org/abs/1801.05944
     * https://arxiv.org/abs/1805.08982
+
+## TREK-150 [ICCV2021] [:globe_with_meridians:](https://machinelearning.uniud.it/datasets/trek150/) [:memo:](https://arxiv.org/abs/2108.13665) [:octocat:](https://github.com/matteo-dunnhofer/TREK-150-toolkit)
+### Features
+* Made of first person vision videos of the [EPIC-KITCHENS-100](https://epic-kitchens.github.io/2021) dataset
+* Test-only
+* Hard
+* Small
+### Statistics
+| #Videos | #Frames | #Object <br> classes | #Attr. | Size <br> (GB) |
+| ------: | ------: | -------------------: | -----: | -------------: |
+|     150 |  97,296 |                   34 |     20 |           ~3.0 |
+### Caveats
+* Although it is small, the preparation process based on the provided code is a bit painful.
+    * It might take a **whole week or more**.
+    * The dataset temporarily swells up to **hundreds of gigabytes**. This is because the dataset is constructed by downloading and trimming a whole bunch of large videos, which are not deleted until all of them are downloaded.
+        * To get around this, you can modify the code to delete the videos as soon as the necessary frames are extracted.
+* The coordinate origin seems 0.
+    * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
