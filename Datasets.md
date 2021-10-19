@@ -45,7 +45,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | 2018 |      60 |     21,356 |            1.7 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
 | 2019 |      60 |     19,935 |            1.6 | 12 videos replaced with GOT-10k videos  | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
 | 2020 |      60 |     19,945 |            1.6 | 1 video replaced                        | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
-| 2021 |      60 |     19,945 |            1.6 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) |
+| 2021 |      60 |     19,945 |            1.6 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) [:memo:](http://prints.vicos.si/publications/400) |
 #### Used Datasets (partially uncertain)
 * ??? for `VOT2013`
 * [VOT2013](https://www.votchallenge.net/vot2013/), [OTB2013](http://cvlab.hanyang.ac.kr/tracker_benchmark/benchmark_v10.html), [ALOV](https://ieeexplore.ieee.org/document/6671560) for `VOT2014`
@@ -72,7 +72,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 | 2018 |      35 |    146,847 |             10 | N/A                                     | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
 | 2019 |      50 |    215,294 |             16 | 15 videos added                         | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
 | 2020 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
-| 2021 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) |
+| 2021 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) [:memo:](http://prints.vicos.si/publications/400) |
 #### Used Datasets
 * [LTB35](https://arxiv.org/abs/1804.07056) for `VOT-LT2018`
     * Made from [UAV20L](https://cemse.kaust.edu.sa/ivul/uav123) (20), [TLD](http://vision.stanford.edu/teaching/cs231b_spring1415/papers/Kalal-PAMI.pdf) (3), some YouTube videos (6), and [AMP](https://arxiv.org/abs/1612.00089) (6).
