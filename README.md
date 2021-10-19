@@ -22,7 +22,7 @@ Tracking datasets out there are sometimes ill-annotated, implicitly different in
     | 2018 |      35 |    146,847 |             10 | N/A                                     | [:globe_with_meridians:](https://www.votchallenge.net/vot2018/) [:memo:](http://prints.vicos.si/publications/365) |
     | 2019 |      50 |    215,294 |             16 | 15 videos added                         | [:globe_with_meridians:](https://www.votchallenge.net/vot2019/) [:memo:](http://prints.vicos.si/publications/375) |
     | 2020 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2020/) [:memo:](http://prints.vicos.si/publications/384) |
-    | 2021 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) |
+    | 2021 |      50 |    215,294 |             16 | Nothing                                 | [:globe_with_meridians:](https://www.votchallenge.net/vot2021/) [:memo:](http://prints.vicos.si/publications/400) |
 ### Others
 | Name                                                                                       | Publication | #Train <br> videos | #Test <br> videos |    #Frames | #Object <br> classes | #Attr. | Size <br> (GB) | Links |
 | :----------------------------------------------------------------------------------------- | :---------: | -----------------: | ----------------: | ---------: | -------------------: | -----: | -------------: | :---- |
