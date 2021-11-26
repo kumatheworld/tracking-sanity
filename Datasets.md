@@ -17,18 +17,15 @@
     * [TOTB](#totb-iccv2021-globe_with_meridians-memo)
     * [TNL-2k](#tnl-2k-cvpr2021-globe_with_meridians-memo-octocat)
     * [TREK-150](#trek-150-iccv2021-globe_with_meridians-memo-octocat)
-### General caveats
-* **Don't optimize your tracker using test sets**. Doing this is not a good idea in any machine learning field. However in visual tracking, the smallness of datasets and the sensitivity of metrics make it conceivable.
-* Prepare well for the huge datasets!
 
 ## VOT [:globe_with_meridians:](https://www.votchallenge.net/) [:octocat:](https://github.com/votchallenge/vot-toolkit-python)
 VOT (Visual Object Tracking) Challenge is a competition that has been held as a workshop of ICCV/ECCV every year since 2013. Besides its main [short-term challenges](#vot-short-term-challenges), [long-term challenges](#vot-long-term-challenges) and multimodal tracking challenges have taken place recently.
 ### Common Features
-* Every dataset mostly consists of a **mixture of existing datasets**
+* Every dataset mostly consists of a **mixture of some existing datasets**
 * The datasets are carefully constructed and mostly recycled every year
 * Small
 ### Common Caveats
-* Since each dataset is made from existing datasets, **don't use them for training/tuning your tracker**.
+* Since each dataset is made from some existing datasets, **don't use them for training/tuning your tracker**.
 ### VOT Short-Term Challenges
 #### Features
 * Unique evaluation protocols and associated metrics of average overlap, robustness and expected average overlap (EAO, since `VOT2015`)
@@ -60,7 +57,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
 * The test results seem **very sensitive**.
     * See e.g. https://github.com/STVIR/pysot/discussions/94, https://github.com/visionml/pytracking/issues/79 or https://github.com/MegviiDetection/video_analyst/issues/109.
     * You might see ~30% performance changes in EAO with a small perturbation to few of your parameters.
-    * Some people take adventage of this and **try to overfit the dataset** by tuning some hyperparameters.
+    * Try not to overfit the dataset by tuning some hyperparameters.
         * See e.g. https://github.com/hqucv/siamban/issues/32 or https://github.com/zhanght021/RPT/issues/11.
 ### VOT Long-Term Challenges
 #### Features
@@ -349,9 +346,9 @@ Nothing.
     * Some videos have whitespaces in their names.
     * Most videos have names ending with `done`, `Done` or `done---`.
     * A lot of videos are avoidably given Chinese names. To name a few,
-        * `test/BianSeLong_video_09-Done`. Here, BianSeLong means nothing but chameleon, which they could use instead.
-        * `test/CartoonKeNAN_video_07`. Here, KeNAN is what Chinese people call the Japanese manga series Detective Conan.
-        * `test/advSamp_Juediqiusheng_video_003-Done`. Here, `Juediqiusheng` is PlayerUnknown's Battlegrounds (PUBG).
+        * `test/BianSeLong_video_09-Done` (BianSeLong = chameleon).
+        * `test/CartoonKeNAN_video_07` (KeNAN = Detective Conan).
+        * `test/advSamp_Juediqiusheng_video_003-Done` (Juediqiusheng = PUBG).
 * English descriptions could be better. For example,
     * "the target person the player againest with" of `test/advSamp_Battle_video_1_done`.
     * "We want to track the girl who wears white skirt and black pants is riding a bike." of `test/advSamp_monitor_bike5`.
