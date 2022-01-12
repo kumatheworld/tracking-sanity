@@ -114,7 +114,7 @@ VOT (Visual Object Tracking) Challenge is a competition that has been held as a 
     * Examples:
         * The 75th bounding box `(348, -10, 32, 35)` of `Biker`
         * The 274th bounding box `(268, 60, 60, 83)` of `Trellis`, whose resolution is `320 x 240`
-    * The coordinate origin is not clear for this reason.
+    * The coordinate base is not clear for this reason.
 * 2 videos have invalid bounding boxes at the very end.
     * The 698th bounding box `(0, 0, 0, 0)` of `Board`
     * The 472nd bounding box `(0, 0, 0, 0)` of `Twinnings`
@@ -156,7 +156,7 @@ Nothing.
 * The 30fps version of `dog_2` seems nothing but `dog` rather than a downsampled version of the 240 fps video.
 * In the following 10 videos, whether 240 FPS or 30 FPS, the annotation length is shorter than the video length by 1.
     * `Gymnastics`, `Skydiving`, `airtable_3`,  `basketball_2`, `beach_flipback_person`, `bowling_ball`, `motorcross`, `parkour`, `shuffletable_4`, `soccer_ball_2`.
-* The coordinate origin seems 0.
+* The coordinate base seems 0.
     * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
 
 ## TrackingNet [ECCV2018] [:globe_with_meridians:](https://tracking-net.org/) [:memo:](https://arxiv.org/abs/1803.10794) [:octocat:](https://github.com/SilvioGiancola/TrackingNet-devkit)
@@ -278,7 +278,7 @@ Nothing.
             1341.0000,0.0000,293.0000,1.0000
             1353.0000,0.0000,270.0000,1.0000
           ```
-* The coordinate origin is not clear.
+* The coordinate base is not clear.
     * It is supposed to be 1 (see https://github.com/got-10k/toolkit/issues/6) but there are many videos (including 6 `Test` videos) that have `0`'s as the left end or the top end coordinate.
 * Some `Train` videos and `Val` videos are made from the same YouTube videos.
     * 107 videos out of the 180 `Val` videos have some overlaps with `Train`.
@@ -307,7 +307,7 @@ Nothing.
 | ------: | -------: | -------------------: | -----: | -------------: |
 |     150 |  359,169 |                   15 |     14 |             60 |
 ### Caveats
-* The coordinate origin is not clear in contrast to the other LaSOT videos.
+* The coordinate base is not clear in contrast to the other LaSOT videos.
     * See https://github.com/HengLan/LaSOT_Evaluation_Toolkit/issues/14.
 
 ## TOTB [ICCV2021] [:globe_with_meridians:](https://hengfan2010.github.io/projects/TOTB/) [:memo:](https://arxiv.org/abs/2011.10875)
@@ -353,7 +353,7 @@ Nothing.
     * "the target person the player againest with" of `test/advSamp_Battle_video_1_done`.
     * "We want to track the girl who wears white skirt and black pants is riding a bike." of `test/advSamp_monitor_bike5`.
 * The image extension is not unified. Both JPEG and PNG exist.
-* The coordinate origin is not clear.
+* The coordinate base is not clear.
 * There are bounding boxes sticking out of the FoV.
 * Target absence is probably expressed by `0,0,0,0` in the ground truth text file but there is no explanation.
 * 518 videos are drawn from the following existing datasets.
@@ -375,5 +375,5 @@ Nothing.
     * It might take a **whole week or more**.
     * The dataset temporarily swells up to **hundreds of gigabytes**. This is because the dataset is constructed by downloading and trimming a whole bunch of large videos, which are not deleted until all of them are downloaded.
         * To get around this, you can modify the code to delete the videos as soon as the necessary frames are extracted.
-* The coordinate origin seems 0.
+* The coordinate base seems 0.
     * All x-coordinates are within [0, width) and are y-coordinates are within [0, height), and there are many 0's.
